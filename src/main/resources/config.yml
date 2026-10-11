@@ -1,0 +1,12 @@
+# TickWait by TrueTick — how to read the numbers: https://truetick.gg/tickwait
+
+# Optional labels shown on a shared report ("as entered by the uploader").
+# Set them in game with /tickwait host <text> and /tickwait plan <text>.
+host: ""
+plan: ""
+
+# Where /tickwait share uploads reports. Nothing is sent until you run /tickwait share confirm.
+upload-url: "https://api.truetick.gg/v1/public/tickwait/reports"
+
+# Days of per-minute measurements kept in plugins/TickWait/minutes.csv (1-7).
+keep-days: 7

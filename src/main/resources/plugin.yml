@@ -1,0 +1,16 @@
+name: TickWait
+version: '${version}'
+main: gg.truetick.tickwait.TickWaitPlugin
+api-version: '1.13'
+author: TrueTick
+website: https://truetick.gg/tickwait
+description: Measures how long your server's main thread waits for a CPU core, and why.
+commands:
+  tickwait:
+    description: CPU wait of the main thread — status, report, share.
+    usage: /<command> [status|report|share|export|unshare|shared|host|plan|reset|help]
+    permission: tickwait.admin
+permissions:
+  tickwait.admin:
+    description: Use /tickwait.
+    default: op
