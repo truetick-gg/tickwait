@@ -95,6 +95,9 @@ TickWait is developed in TrueTick's monorepo;
 and its Releases page has the jar. Issues are welcome there — for code changes, please open an
 issue first.
 
+TickWait was written with Claude, Anthropic's AI, and tested on TrueTick's servers — the
+calibration runs are on [truetick.gg/tickwait](https://truetick.gg/tickwait).
+
 ## License
 
 MIT. Made by [TrueTick](https://truetick.gg), a Minecraft host — TickWait measures every
